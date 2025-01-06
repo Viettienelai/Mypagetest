@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tìm kiếm Google</title>
+    <title>Tìm kiếm hoặc chuyển hướng</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="search-container">
-        <form action="https://www.google.com/search" method="get">
-            <input type="text" name="q" placeholder="Nhập từ khóa..." required>
+        <form id="search-form">
+            <input type="text" id="search-bar" placeholder="Nhập từ khóa hoặc URL..." required>
             <button type="submit">Tìm kiếm</button>
         </form>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
